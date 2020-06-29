@@ -1,0 +1,11 @@
+<!--pages/JHistogramChart/JHistogramChart.wxml-->
+<!-- 统计图标 -->
+<view style="position:relative; background:#f6f6f6; border-radius:5px; padding-bottom:16rpx;">
+ <canvas type="2d" id="scatterCanvas"
+         bindtouchstart='touchstart' bindtouchmove='touchmove' 
+         style="height:{{height}}rpx; width:{{width}}rpx;"></canvas>
+<!-- 指示器 -->
+ <canvas type="2d" id="IndacatorCanvas" bindtouchstart='touchstart' bindtouchmove='touchmove' bindtouchend='touchend'
+         style="position:absolute; left:0; top:0; height:{{height}}rpx; width:{{width}}rpx;"></canvas>
+</view>
+

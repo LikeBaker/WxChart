@@ -1,0 +1,5 @@
+<!--index.wxml-->
+
+<view style="margin:0 40rpx">
+  <histogram id='histogram'  height='600' width='670'></histogram>
+</view>
